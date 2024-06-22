@@ -28,3 +28,6 @@ git config --global user.name "Your Name"
 print("hello, world")
 ``` -->
 
+## Commenting in Python
+
+https://realpython.com/python-comments-guide/
