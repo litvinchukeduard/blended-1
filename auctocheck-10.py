@@ -76,3 +76,6 @@ def get_fullname(first_name, last_name, middle_name=''):
     if middle_name:
         return f"{first_name} {middle_name} {last_name}"
     return f"{first_name} {last_name}"
+
+def get_fullname_in_one_line(first_name, last_name, middle_name=''):
+    return f"{first_name} {middle_name} {last_name}" if middle_name else f"{first_name} {last_name}"
